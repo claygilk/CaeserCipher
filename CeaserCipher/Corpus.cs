@@ -11,7 +11,11 @@ namespace CeaserCipher
 
         public bool CheckWord(string input)
         {
-            string dataFilePath = "C:\\Users\\Student\\source\\repos\\CeaserCipher\\CeaserCipher\\en_US-large.txt";
+            
+            //C: \Users\Student\source\repos\CeaserCipher\CeaserCipher\bin\Debug\netcoreapp3.1
+            string dataFilePath = Path.GetFullPath("en_US-large.txt");
+            
+            //"C:\\Users\\Student\\source\\repos\\CeaserCipher\\CeaserCipher\\en_US-large.txt";
             StreamReader dictionaryFile = new StreamReader(dataFilePath);
 
             this.EnglishWords = new List<string>();
