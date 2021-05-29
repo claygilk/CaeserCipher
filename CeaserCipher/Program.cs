@@ -6,7 +6,11 @@ namespace CeaserCipher
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("Hello World!");
+            Console.WriteLine("### Ceaser Cipher ###");
+
+            UserInterface UI = new UserInterface();
+
+            UI.MainMenu();
         }
     }
 }

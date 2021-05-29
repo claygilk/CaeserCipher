@@ -1,8 +1,21 @@
 {
   "version": 2,
-  "dgSpecHash": "WrjJp1FUKW8Mcc8pJ2Xv8enMUC5TicpM0UdYxlAUudMSCcAcGqaU188caICHk++Qb/2HnoQ7e2OzfivdrHLiMQ==",
+  "dgSpecHash": "tiR9P1R0ZPRopf5jOU8xHfihpjbmyvETWKE8xW0nsAKisZWclcO0rHvVSYGoosq3MtXsw2H1LOmrZ5ILklL31Q==",
   "success": true,
   "projectFilePath": "C:\\Users\\Student\\source\\repos\\CeaserCipher\\CeaserCipher\\CeaserCipher.csproj",
-  "expectedPackageFiles": [],
-  "logs": []
+  "expectedPackageFiles": [
+    "C:\\Users\\Student\\.nuget\\packages\\netspell\\2.1.7\\netspell.2.1.7.nupkg.sha512"
+  ],
+  "logs": [
+    {
+      "code": "NU1701",
+      "level": "Warning",
+      "warningLevel": 1,
+      "message": "Package 'NetSpell 2.1.7' was restored using '.NETFramework,Version=v4.6.1, .NETFramework,Version=v4.6.2, .NETFramework,Version=v4.7, .NETFramework,Version=v4.7.1, .NETFramework,Version=v4.7.2, .NETFramework,Version=v4.8' instead of the project target framework '.NETCoreApp,Version=v3.1'. This package may not be fully compatible with your project.",
+      "libraryId": "NetSpell",
+      "targetGraphs": [
+        ".NETCoreApp,Version=v3.1"
+      ]
+    }
+  ]
 }
