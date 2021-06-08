@@ -1,5 +1,5 @@
-# CeaserCipher
-C# implementation of a Ceaser cipher
+# CaeserCipher
+C# implementation of a Caeser cipher
 
 You can use this app to encode and decode messages using a ceaser cipher.
 
