@@ -4,6 +4,7 @@ using System.Text;
 using System.Linq;
 
 namespace CaeserCipher
+
 {
     public class Caeser : ICipher
     {
