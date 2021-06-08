@@ -3,9 +3,9 @@ using System.Collections.Generic;
 using System.Text;
 using System.Linq;
 
-namespace CeaserCipher
+namespace CaeserCipher
 {
-    public class Ceaser : ICipher
+    public class Caeser : ICipher
     {
 
         // Properties
@@ -13,7 +13,7 @@ namespace CeaserCipher
         public Dictionary<int, string> LookupAlphabet { get; }
 
         // Constructor
-        public Ceaser()
+        public Caeser()
         {
             this.Alphabet = new Dictionary<string, int>()
             {

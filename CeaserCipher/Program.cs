@@ -1,13 +1,13 @@
 ﻿using System;
 using System.IO;
 
-namespace CeaserCipher
+namespace CaeserCipher
 {
     class Program
     {
         static void Main(string[] args)
         {
-            Console.WriteLine("### Ceaser Cipher ###");
+            Console.WriteLine("### Caeser Cipher ###");
 
             UserInterface UI = new UserInterface();
 

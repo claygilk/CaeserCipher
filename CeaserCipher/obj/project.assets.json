@@ -48,9 +48,9 @@
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Student\\source\\repos\\CeaserCipher\\CeaserCipher\\CeaserCipher.csproj",
-      "projectName": "CeaserCipher",
-      "projectPath": "C:\\Users\\Student\\source\\repos\\CeaserCipher\\CeaserCipher\\CeaserCipher.csproj",
+      "projectUniqueName": "C:\\Users\\Student\\source\\repos\\CeaserCipher\\CeaserCipher\\CaeserCipher.csproj",
+      "projectName": "CaeserCipher",
+      "projectPath": "C:\\Users\\Student\\source\\repos\\CeaserCipher\\CeaserCipher\\CaeserCipher.csproj",
       "packagesPath": "C:\\Users\\Student\\.nuget\\packages\\",
       "outputPath": "C:\\Users\\Student\\source\\repos\\CeaserCipher\\CeaserCipher\\obj\\",
       "projectStyle": "PackageReference",

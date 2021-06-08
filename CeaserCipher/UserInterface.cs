@@ -2,7 +2,7 @@
 using System.Collections.Generic;
 using System.Text;
 
-namespace CeaserCipher
+namespace CaeserCipher
 {
     public class UserInterface
     {
@@ -13,9 +13,9 @@ namespace CeaserCipher
             while (keepRunning)
             {
                 Console.WriteLine("Choose an Option: ");
-                Console.WriteLine("1: Encode Message with Ceaser Cipher");
-                Console.WriteLine("2: Decode Message with Ceaser Cipher");
-                Console.WriteLine("3:  Crack Message with Ceaser Cipher");
+                Console.WriteLine("1: Encode Message with Caeser Cipher");
+                Console.WriteLine("2: Decode Message with Caeser Cipher");
+                Console.WriteLine("3: Crack  Message with Caeser Cipher");
 
                 string choice = Console.ReadLine();
 
@@ -43,7 +43,7 @@ namespace CeaserCipher
         public void CrackMenu()
         {
             bool keepRunning = true;
-            Ceaser ceaser = new Ceaser();
+            Caeser ceaser = new Caeser();
 
             while (keepRunning)
             {
@@ -63,7 +63,7 @@ namespace CeaserCipher
         public void DecoderMenu()
         {
             bool keepRunning = true;
-            Ceaser ceaser = new Ceaser();
+            Caeser ceaser = new Caeser();
 
             while (keepRunning)
             {
@@ -103,7 +103,7 @@ namespace CeaserCipher
         public void EncoderMenu()
         {
             bool keepRunning = true;
-            Ceaser ceaser = new Ceaser();
+            Caeser ceaser = new Caeser();
 
             while (keepRunning)
             {
